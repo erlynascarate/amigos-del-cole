@@ -5,30 +5,47 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f2f2f2">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
 	<title>Amigos del cole</title>
-	<link rel="shortcut icon" href="favicon.png">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 	<header>
 		<h1>Amigos del cole</h1>
 	</header>
-	
-	<main id="background">
+	<main>
 		<section>
-			<img src="img/feliz-cumple-gabriel.jpg" alt="Fel&iacute;z cumplea&ntilde;os Gabriel">
-			<h2>Fel&iacute;z cumplea&ntilde;os Gabriel</h2>
-			<h2>18/06/2021</h2>
-			<globo-yellow></globo-yellow>
+			<picture>
+				<img
+					src="./assets/img/presentation.jpeg"
+					alt=""
+				>
+			</picture>
+		</section>
+		<section>
+			<figure>
+				<picture>
+					<img
+						src="./assets/img/feliz-cumple-gabriel.jpg"
+						alt="Felíz cumpleaños Gabriel"
+						loading="lazy"
+					>
+				</picture>
+				<figcaption>
+					<h2>Fel&iacute;z cumplea&ntilde;os Gabriel</h2>
+					<h2>18/06/2021</h2>
+				</figcaption>
+			</figure>
 		</section>
 	</main>
-	
-	<footer>
-		<p>En un <yellow>colegio</yellow> llamado<yellow>: </yellow>Santa <yellow>Sofia</yellow></p>
-		<img class="img-sofia" src="img/santa-sofia.jpg" alt="Santa Sofia">
-	</footer>
-	<script src="main.js"></script>
 </body>
 
 </html>
