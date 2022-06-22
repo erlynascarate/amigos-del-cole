@@ -4,7 +4,7 @@
 
 html {
 	font-size: clamp(0.62rem, 0.425rem + 1vw, 0.79rem);
-	font-family: sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -16,8 +16,59 @@ img {
 	block-size: auto;
 }
 
+h1, h2, h3 {
+	font-family: Roboto, sans-serif;
+}
+
 header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 15px;
+	font-size: 2.5rem;
+    border-block-end: 1px solid hsl(0deg 0% 75%);
+	text-align: center;
+}
+
+.presentation-container {
+	position: relative;
+	block-size: 100vh;
+}
+
+.presentation-container__img {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+
+.presentation {
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-inline: auto;
+	padding-inline: 15%;
+	max-inline-size: 53.0rem;
+	block-size: 100%;
+	text-align: center;
+}
+
+@media (max-width: 460px) {
+	.presentation {
+		padding-inline: 10%;
+	}
+}
+
+.presentation__title {
+	margin-block-end: 20px;
+	font-size: 3.6rem;
+}
+
+.carousel {
+	padding-block: 60px;
+	padding-inline: 5%;
+	background-color: hsl(0deg 0% 90%);
 }
