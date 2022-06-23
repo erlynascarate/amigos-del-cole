@@ -5,16 +5,17 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f2f2f2">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#f2f2f2">
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Amigos del cole</title>
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./style.css">
+	<script defer src="../src/index.js"></script>
 </head>
 
 <body>
@@ -31,12 +32,12 @@
 				>
 			</picture>
 			<div class="presentation">
-				<h2 class="presentation__title">Lorem ipsum dolor sit ame</h2>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum voluptatum ex quae officiis hic fugiat tempore</p>
+				<h2 class="presentation__title">Minijuegos</h2>
+				<p class="presentation__text">Prueba estos minijuegos</p>
 			</div>
 		</section>
 		<section class="carousel">
-			<figure class="user">
+			<figure id="gabriel" class="user">
 				<picture>
 					<img
 						class="user__img"
@@ -48,8 +49,12 @@
 				<figcaption class="user-description">
 					<h2 class="user-description__title">Felíz cumpleaños Gabriel</h2>
 					<p class="user-description__text">18/06/2021</p>
+					<a href="#game" class="user-description__btn">Ver minijuego</a>
 				</figcaption>
 			</figure>
+		</section>
+		<section id="game">
+
 		</section>
 	</main>
 </body>

@@ -71,6 +71,10 @@ header {
 	font-size: 3.6rem;
 }
 
+.presentation__text {
+	color: hsl(0deg 0% 40%);
+}
+
 .carousel {
 	padding-block: 60px;
 	padding-inline: 15%;
@@ -125,7 +129,6 @@ header {
 }
 
 .user-description__title {
-	margin-block-end: 20px;
 	font-size: 2.0rem;
 	font-weight: 700;
 	color: hsl(225 46% 55%);
@@ -135,5 +138,21 @@ header {
 }
 
 .user-description__text {
+	margin-block: 20px;
 	font-size: 1.8rem;
+}
+
+.user-description__btn {
+	align-self: center;
+	padding-block: 10px;
+	padding-inline: 30px;
+	color: var(--white);
+	background-color: hsl(225deg 46% 66%);
+	text-decoration: none;
+}
+
+.user-description__btn:hover,
+.user-description__btn:focus-visible {
+	color: hsl(0deg 0% 7%);
+	background-color: hsl(0deg 0% 90%);
 }
