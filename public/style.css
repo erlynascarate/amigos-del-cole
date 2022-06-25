@@ -124,6 +124,9 @@ header {
 	.user-description {
 		margin-block-start: 30px;
 		padding-inline: 10%;
+	}
+
+	.user-description__title {
 		overflow-wrap: anywhere;
 	}
 }
