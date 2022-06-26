@@ -1,9 +1,11 @@
 # Amigos del cole
 Una página web creada para recordar el cumpleaños de amigos y dedicarles un minijuego.
-[https://erlynascarate.github.io/amigos-del-cole/](http://https://erlynascarate.github.io/amigos-del-cole/ "https://erlynascarate.github.io/amigos-del-cole/")
+[https://paramistades.netlify.app/](https://paramistades.netlify.app/)
+
 ## Construido con
 - HTML
 - CSS
+- JavaScript
 
 ## Autor
-Hecho por [erlynascarate](http://https://github.com/erlynascarate "erlynascarate")
+Hecho por [erlynascarate](https://twitter.com/erlynascarate "Erlyn Ascarate")
